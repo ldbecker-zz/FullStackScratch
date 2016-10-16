@@ -1,0 +1,21 @@
+{
+  "name": "FullStackScratch",
+  "description": "Practice building a fullstack app",
+  "author": "Lucas Becker",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "morgan": "^1.7.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {}
+}
